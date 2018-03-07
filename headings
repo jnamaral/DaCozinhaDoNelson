@@ -1,0 +1,23 @@
+\usepackage{fancyhdr}
+\usepackage{fullpage}
+%\usepackage{tex4ht}
+\usepackage{hyperref}
+\usepackage[parent]{currfile}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[T1]{fontenc}
+\fontfamily{georgia}\selectfont
+\fontfamily{georgia}\selectfont
+%\usepackage{garamond}
+\setlength{\topmargin}{0.30in}
+\setlength{\headheight}{50pt}
+\renewcommand{\baselinestretch}{0.8}
+\lhead{Jos\'{e} Nelson Amaral}
+\rhead{jamaral@ualberta.ca}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+\pagestyle{fancy}
+\date{}
+\setcounter{page}{1}
