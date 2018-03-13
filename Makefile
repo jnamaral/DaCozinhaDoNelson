@@ -19,7 +19,7 @@ $(HTML): %.html: %.tex
 	echo "<li> <a href=\""$(basename $<)".html\">" >> $(INDEX_TEMPLATE)
 	grep recipeName $<|grep new|sed 's/\\newcommand \\recipeName {//'|sed 's/}//' >> $(INDEX_TEMPLATE)
 	echo "</a> </li>" >>  $(INDEX_TEMPLATE)
-	LC_ALL=C sed 's/\<title\>/\<link rel=\"shortcut icon\" href=\"NelsonsKitchen.ico\" type=\"image\/x-icon\" \/>\<title\>/g' "$(basename $<)".html > ~"$(basename $<)".html
+	LC_ALL=C sed 's/\<title\>/\<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image\/x-icon\" \/>\<title\>/g' "$(basename $<)".html > ~"$(basename $<)".html
 	LC_ALL=C sed 's/class=\"td11\"\>\</class=\"td11\"  width=\"25%\"\>\</g' "$(basename $<)".html > ~"$(basename $<)".html
 	LC_ALL=C sed 's/alt=\"PIC\"/alt=\"PIC\" width=\"100%\"/g' ~"$(basename $<)".html > "$(basename $<)".html
 	rm ~"$(basename $<)".html
