@@ -1,6 +1,7 @@
 \documentclass [11pt, letterpaper] {article}
 \input {headings}
 \newcommand \recipeName {Recheio de Frango}
+\newcommand \fileName {ChickenFilling}
 \chead {\recipeName}
 
 \begin {document}
@@ -85,19 +86,6 @@ Este \'e um recheio de frango que pode ser usado em muitas receitas incluindo pa
 \end {enumerate}
 \end {description}
 
-\begin{table}
-\begin{tabular}{cccc}
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8520.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8521.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8522.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8523.jpg} \\
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8524.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8525.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8526.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8527.jpg} \\
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8528.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/ChickenFilling/IMG_8529.jpg} \\
-\end{tabular}
-\end{table}
+\input{\imageDir/\fileName/imageTable}
 
 \end {document}

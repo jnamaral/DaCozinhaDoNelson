@@ -1,6 +1,7 @@
 \documentclass [11pt, letterpaper] {article}
 \input {headings}
 \newcommand \recipeName {Massa de Tortilha do Daniel}
+\newcommand \fileName {TortillaPasta}
 \chead {\recipeName}
 
 \begin {document}
@@ -33,18 +34,8 @@ Eu desenvolvi essa receita como uma refeição rápida para Daniel. Com o tempo,
 \end {itemize}
 \end{description}
 
-\begin{table}
-\begin{tabular}{cccc}
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8300.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8302.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8303.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8304.jpg} \\
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8305.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8306.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8307.jpg} &
-\includegraphics[width=0.25\textwidth]{\imageDir/TortillaPasta/IMG_8308.jpg} \\
-\end{tabular}
-\end{table}
+\input{\imageDir/\fileName/imageTable}
+
 \end{document}
 
 
