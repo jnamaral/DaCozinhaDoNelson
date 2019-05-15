@@ -4,7 +4,7 @@
 {\bf \Large \recipeName}\\
 \end{centering}
 \begin{flushright}
-{\bf Da Cozinha do Nelson}\\
+{\bf \href{https://webdocs.cs.ualberta.ca/~amaral/DaCozinhaDoNelson}{Da Cozinha do Nelson}}\\
 \href{\parentfilebase.pdf}{Imprimir}\\
 \end{flushright}
 \vspace{0.5in}
