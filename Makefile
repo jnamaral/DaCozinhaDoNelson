@@ -22,7 +22,7 @@ $(HTML): %.html: %.tex
 	LC_ALL=C sed 's/\<title\>/\<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image\/x-icon\" \/>\<title\>/g' "$(basename $<)".html > ~"$(basename $<)".html
 	LC_ALL=C sed 's/class=\"td11\"\>\</class=\"td11\"  width=\"25%\"\>\</g' ~"$(basename $<)".html > "$(basename $<)".html
 	LC_ALL=C sed 's/alt=\"PIC\"/alt=\"PIC\" width=\"100%\"/g' "$(basename $<)".html > ~"$(basename $<)".html
-	LC_ALL=C sed 's/\<\/head\>/\<div class=\"container\"\>\<img src=\"DaCozinhaDoNelson-Inner-Banner.jpg\" border=0 width=\"100%\" alt=\"From Nelsons Kitchen\" align=\"center\"\>\<\/div\>\<\/head\>/' ~"$(basename $<)".html > "$(basename $<)".html
+	LC_ALL=C sed 's/\<\/head\>/\<div class=\"container\"\>\<img src=\"DaCozinhaDoNelson-Inner-Banner.jpg\" border=0 width=\"100%\" alt=\"Da Cozinha do Nelson\" align=\"center\"\>\<\/div\>\<\/head\>/' ~"$(basename $<)".html > "$(basename $<)".html
 	rm ~"$(basename $<)".html 
 
 $(PDF): %.pdf: %.tex
