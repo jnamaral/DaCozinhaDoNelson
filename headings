@@ -8,12 +8,12 @@
 \usepackage{subfigure}
 \usepackage[T1]{fontenc}
 \fontfamily{georgia}\selectfont
-\fontfamily{georgia}\selectfont
 %\usepackage{garamond}
 \setlength{\topmargin}{0.30in}
 \setlength{\headheight}{50pt}
 \renewcommand{\baselinestretch}{0.8}
 \lhead{Jos\'{e} Nelson Amaral}
+\chead{\recipeName}
 \rhead{jamaral@ualberta.ca}
 \cfoot{}
 \lfoot{}
